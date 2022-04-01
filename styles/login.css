@@ -1,0 +1,57 @@
+#mmmk>form{
+    display: flex;
+    flex-direction: column;
+   width: 80%;
+    margin: auto;
+    
+}
+#mmmk{
+    border: 1px solid rgb(211, 192, 192);
+    width: 35%;
+    margin: auto;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+#spamk{
+    display: flex;
+    flex-direction: row;
+    margin-left: 00px;
+    margin-top: 10px;
+    /* height: 00px; */
+}
+#spamk>h2{
+    
+    margin-left: 30px;
+    font-size: 24px;
+}
+#spamk>h2:nth-child(2){
+    font-weight: 500;
+    color: #0bf;
+    font-size: 23px;
+}
+#formkp>input{
+    margin-bottom: 18px;
+    
+   height: 30px;
+   border-radius: 5px;
+   border: 1px solid rgb(184, 174, 174);
+
+}
+#finalSum{
+    width: 80%;
+    height: 28px;
+    margin: auto;
+    margin-left: 38px;
+    border: none;
+    border-radius: 10px;
+}
+#datepk{
+    margin-top: 10px;
+    width: 98%;
+}
+#finalSum{
+    background-color: #0bf;
+    color: white;
+    
+}

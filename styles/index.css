@@ -1,0 +1,219 @@
+#header{
+    width: 100%;
+   height: 120px;
+   border: 1px solid black;
+   }
+   #sliding{
+       width: 100%;
+       height: 400px;
+   
+   }
+   #sliding>img{
+       width: 100%;
+       height: 100%;
+   }
+   #belowsliding{
+       width: 90%;
+       margin: auto;
+       height: 100%;
+     
+   }
+   #first{
+       display: flex;
+       width: 100%;
+       gap: 40px;
+       
+       
+   }
+   #bestSeller{
+       width: 22%;
+       text-align: center;
+       padding: 10px;
+       margin-bottom: 50px;
+       font-size: 20px;
+       font-family:Lato;
+   }
+   #bestSeller>button{
+       background-color: rgb(0,175,239);
+       color: white;
+       padding: 15px 30px;
+       border-radius: 10px;
+       border: none;
+   }
+   .products1{
+       width: 78%;
+       display: flex;
+      
+   }
+   .products1>div>button{
+       padding: 6px 30px;
+       
+   }
+
+   #gallery{
+
+       display: flex;
+       gap: 90px;
+       height: 500px;
+
+   }
+   #gallery>div{
+       gap: 50px;
+      
+       margin-top: 50px;
+   }
+   #vedio{
+       margin-left: 50px;
+   }
+   #first1{
+       text-align: center;
+       padding-left: 50px;
+       padding-right: 50px;
+   }
+   #first1>h2{
+       color:  rgb(0,175,239);
+   }
+   #button>button{
+       padding: 15px 20px;
+       border-radius: 10px;
+       margin-right: 20px;
+   }
+   #button1{
+       background-color: rgb(0,175,239);
+       color: white;
+       padding: 15px 20px;
+       border-radius: 10px;
+       border: none;
+   }
+   #button2{
+       background-color: white;
+       color:  rgb(0,175,239);
+       
+   }
+   #imgbottom{
+      text-align: center;
+      width: 100%;
+   }
+   #imgbottom1{
+      text-align: center;
+      width: 100%;
+      line-height: 0px;
+   }
+   #imgbottom2{
+       margin-left: 5px;
+   }
+   .products1{
+       display: flex;
+       gap: 10px;
+       margin-top: 10px;
+   }
+   .products1>div>img{
+    height: 200px;
+   }
+   .products1>div{
+       text-align: center;
+       width: 100%;
+      border: 1px solid rgb(238, 221, 221);
+      
+   }
+   .products1>div>button{
+       font-weight: bold;
+       background-color: white;
+       color: rgb(0,175,239);
+      padding-bottom: 5px;
+      padding-top: 5px;
+      width: 80%;
+      height: 40px;
+      border: 1px solid rgb(201, 177, 177);
+      margin-bottom: 2px;
+
+      
+   }
+   .products1{
+       overflow: auto;
+   }
+   .products1>div>button :hover{
+       background-color: teal;
+       color: white;
+   }
+   #hoverImg{
+    cursor: pointer;
+    }
+   
+    /*  */
+    .register{
+        background-color: white;
+        text-align: center;
+        border: 1px solid rgb(219, 213, 213);
+        width: 30%;
+        margin: auto;
+        height: 500px;
+        margin-top: 70px;
+        border-radius: 15px;
+        display: none; 
+        position: fixed;
+         top: 0px;
+         left: 400px;
+    }
+    .log{
+        color: #0bf;
+        font-size: 22px;
+    
+    }
+    #login>a{
+        text-decoration: none;
+        color: black;
+    }
+    .imgk{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+    }
+    .imgk>p{
+       font-size: 14px;
+       font-family: 'Trebuchet MS', sans-serif;
+        font-weight: 100
+    }
+    .imgk>img{
+        width: 60px;
+        height: 70px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    #spanm{
+        line-height: 10px;
+    }
+    #spanm>p{
+        font-size: 16px;
+        font-weight: 0px;
+    }
+    
+    input{
+        width: 75%;
+        height: 35px;
+        font-size: 15px;
+        border: 1px solid rgb(163, 141, 141);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+    #clolour{
+        color:#0bf ;
+    }
+    .btn1{
+        background-color: #0bf;
+        color: white;
+        width: 60%;
+        height: 30px;
+        font-size: 12px;
+        border: 1px solid rgb(185, 171, 171);
+        margin-top: 20px;
+    }
+    .btn2{
+        background-color: rgb(248, 249, 250);
+       color: #0bf;
+        width: 60%;
+        height: 30px;
+        font-size: 13px;
+        border: none;
+    }

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/detailProdPage.css">
+  <link rel="stylesheet" href="./styles/navbar.css">
+  <style>
+  
+    </style>
+</head>
+<body>
+    <!-- //////////// for the fix box in details product page /////////// -->
+    <div id="mazic">
+       <span id="ppppp"> 
+
+           <p class="inR">
+               Price
+            </p>
+            <p id="inRSs"> </p>
+            <p> Inclusive of all Taxes</p>
+            <span id="mazicTable"><p>4.8 Rating </p><p>766 Reviews</p></span>
+            <p>Quantity</p>
+           <tr id="tabletr">
+               <button id="sub">-</button>
+               <input id="inp"  type="Number" value="0">
+               <button id="add">+</button>
+           </tr> 
+        </span>
+      <button id="addTCrt">
+            Add To Cart</button>
+       
+    </div>
+    <!-- ///////////////////////////////////////////////////////////// -->
+   <div id="header"></div>
+    <div id="main2">
+        <div id="photdiv1"> 
+         <div id="photo">
+            
+         </div>
+          <div >
+            <span id="imgdisc"> 
+            <img src="https://honasa-mamaearth-production.imgix.net/3/_/3_6.jpg?auto=format&fit=crop&w=683&auto=compress" >
+            <img src="https://honasa-mamaearth-production.imgix.net/4/_/4_8.jpg?auto=format&fit=crop&w=683&auto=compress" >
+            <img src="https://honasa-mamaearth-production.imgix.net/6/_/6_3.jpg?auto=format&fit=crop&w=683&auto=compress" >
+            <img src="https://honasa-mamaearth-production.imgix.net/_/o/_onion-oil-150ml_6.jpg?auto=format&fit=crop&w=683&auto=compress" >
+            <img src="https://honasa-mamaearth-production.imgix.net/2/_/2_9.jpg?auto=format&fit=crop&w=683&auto=compress" >
+           </span>
+           </div> 
+    </div>
+        <div id="details">
+            <div id="enterP">
+                <p id="coloch">Home</p>
+                <p  id="coloch11">></p>
+                <p id="coloch">ALL Products</p>
+                <p  id="coloch11">></p>
+                <p id="detailN"></p>
+            </div>
+            <!-- <div style="display: flex;"><img src="https://mamaearth.in/static/mamaearth/star.svg" height="16px"> <p>4.8</p></div> -->
+            <div id="divc">
+                <span id="span">
+                <p id="detailN1"></p>
+                <p class="inR">Price</p>
+                <p class="inRS" id="inRS"></p>
+                <p class="rstax"> Inclusive of all Taxes</p>
+                 <p id="left">Hurry! Only 18 Units Left in Stock!</p>
+                  <img id="divimg" src="https://mamaearthp.imgix.net/wysiwyg/goodness-icons.png" alt="">
+                </span>
+            </div>
+        </div>
+    </div>
+    <div id="imgbottom1">
+        <img src="./indexSliding/Screenshot (1814).png" alt="">
+        <img id="imgbottom2" src="./indexSliding/Screenshot (1815).png" alt="">
+    </div>
+</body>
+</html>
+<script>
+
+
+/////////////////////
+</script>
+<script src="./scripts/allprod.js"></script>
+
+<script type="module">
+import navbar from "./components/navbar.js";
+    let container = document.getElementById("header");
+    container.innerHTML = navbar();
+
+</script>
+<script src="./scripts/navbar.js"></script>
+<script src="./scripts//detailProd.js"></script>

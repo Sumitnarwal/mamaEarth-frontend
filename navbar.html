@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .innermenu>p:hover{
+        border-bottom: 1px solid black;
+      }
+      #mainNav {
+        border: 1px solid black;
+        width: 100%;
+        height: 55px;
+        display: flex;
+      }
+      #mainNav > div {
+      }
+      #mainNav > div:nth-child(1) {
+        width: 15%;
+        height: 100%;
+        margin-left: 40px;
+        border: none;
+      }
+      #mainNav > div:nth-child(2) {
+        width: 40%;
+        height: 100%;
+        height: 35px;
+        margin-top: 9px;
+        border-radius: 5px;
+        border: 1px solid black;
+      }
+      #mainNav > div:nth-child(3) {
+        width: 20%;
+        height: 100%;
+        margin-left: 230px;
+      }
+      #logo > img {
+        width: 70%;
+        float: right;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+      #searchBar {
+        margin-left: 70px;
+        display: flex;
+      }
+      #search {
+        width: 79.6%;
+        height: 100%;
+      }
+      #search > input {
+        width: 96%;
+        height: 82%;
+        outline: 0;
+        margin-left: 10px;
+        font-size: 15px;
+        color: #bebebe;
+        font-weight: 550;
+        border: none;
+      }
+      #searchIcon {
+        margin-top: 0px;
+        margin-left: 7px;
+        display: flex;
+        background-color: #00afef;
+        width: 20%;
+        height: 99.8%;
+      }
+      #searchIcon > p {
+        margin-top: 5px;
+        margin-left: 8px;
+        font-size: 20px;
+        color: white;
+      }
+      #cart11{
+        text-decoration: none;
+        border: none;
+      }
+      .searicon {
+        margin-top: 10px;
+        margin-left: 12px;
+        fill: white;
+        color: white;
+      }
+      #cartlog {
+        display: flex;
+      }
+
+      #carti {
+        width: 27%;
+        display: flex;
+      }
+      .cart_icon {
+        margin-top: 13px;
+        width: 20px;
+        height: 25px;
+      }
+
+      #login {
+        width: 22%;
+        display: flex;
+        margin-left: 20px;
+        height: 100%;
+      }
+      .user_account {
+        margin-top: 13px;
+
+        width: 25px;
+        height: 30px;
+      }
+      #cartlog > div > p:nth-child(1) {
+        margin-left: 5px;
+        font-size: 14px;
+        margin-top: 19px;
+      }
+      #cartlog > div > p:nth-child(2) {
+        margin-left: 10px;
+        font-size: 14px;
+        margin-top: 21px;
+      }
+      /* navmenu */
+      #navmenu {
+        width: 100%;
+        height: 50px;
+        border: 1px solid black;
+      }
+      nav > ul {
+        display: flex;
+        list-style: none;
+        margin-left: 40px;
+        margin-top: 17px;
+      }
+      nav > ul > li {
+        margin-left: 40px;
+        font-size: 12px;
+        font-weight: 550;
+      }
+      #megamenu {
+        /* transition: all 0.3s ease 0s;
+        cursor: default;
+        display: none;
+        opacity: 0;
+        position: absolute;
+        
+        left: 50%;
+        content: "";
+        transform: translateX(-27%);
+        display: flex;
+        align-items: flex-start;
+        padding: 1.25rem 1.5rem;
+        background: 0% 0% no-repeat padding-box padding-box rgb(255, 255, 255);
+        box-shadow: rgb(0 0 0 / 26%) 0px 8px 16px;
+        border-top: 2px solid rgb(0, 175, 239);
+        background-color: blue; */
+        position: absolute;
+        top: 106px;
+        left: auto;
+        width: 370px;
+        height: 220px;
+        background-color: white;
+        display: none;
+        transition: all 0.3s ease 0s;
+
+        
+        box-shadow: rgb(0 0 0 / 26%) 0px 8px 16px;
+     
+      }
+      nav > ul > li:hover > #megamenu {
+        display: flex;
+      }
+      .innermenu{
+         width: 125px;
+          height: 100%;
+         
+      }
+      .innermenu>p,h2{
+        margin-left: 15px;
+      }
+      .innermenu>p{
+        font-weight: lighter;
+        font-size: 15px;
+      }
+      .innermenu>h2{
+        font-size: 20px;
+        font-weight: initial;
+       
+      }
+      li{
+       cursor: pointer;
+      }
+      #top{
+        height: 25px;
+        width: 100%;
+        background-color: red;
+        color: white;
+        display: flex;
+        
+      }#top{
+        
+      justify-content: space-around;
+        
+        
+      }
+     #top>div{
+       margin-top: 5px;
+       font-size: 15px;
+     }
+     #home {
+      
+       color: black;
+       text-decoration: none;
+       font-size: 12px;
+       font-weight: 550;
+       
+     }
+     #allpro{
+      color: black;
+       text-decoration: dotted;
+       font-size: 12px;
+       margin-left: 20px;
+       font-weight: 550;
+     }
+     #cart11{
+       text-decoration: none;
+     }
+    </style>
+  </head>
+  <body>
+    <div id="top">
+   <div >Asia's 1st Brand with MADE SAFE Certified Products</div>
+   <div id="top1">Free Shipping Above 399 | COD Available | Extra 5% OFF on Prepaid Orders | Shop Now</div>
+  </div>
+    <div id="mainNav">
+      <div id="logo">
+       
+        <img id="logo11"
+          src="https://mamaearthp.imgix.net/wysiwyg/mamaearth-logo.png"
+          
+        />
+      
+      </div>
+      <div id="searchBar">
+        <div id="search">
+          <input type="text" placeholder="Search for Products..." />
+        </div>
+        <div id="searchIcon">
+          <svg
+            width="17.82"
+            height="16.834"
+            viewBox="0 0 17.82 16.834"
+            style="fill: white"
+            class="searicon"
+          >
+            <path
+              d="M0 6.318a6.282 6.282 0 003.744 5.652 7.006 7.006 0 007.025-.68l5.673 5.354a.871.871 0 001.133-.041.756.756 0 00.044-1.07l-5.673-5.354a6.022 6.022 0 00.219-7.469A6.894 6.894 0 004.676.29 6.354 6.354 0 000 6.318zM6.679 1.59a4.875 4.875 0 015.009 4.728 4.875 4.875 0 01-5.009 4.728A4.875 4.875 0 011.67 6.318 4.875 4.875 0 016.679 1.59z"
+            ></path>
+          </svg>
+          <p>Search</p>
+        </div>
+      </div>
+      <div id="cartlog">
+        <div id="carti">
+          <svg
+            width="20.022"
+            height="17.598"
+            viewBox="0 0 20.022 17.598"
+            style="fill: rgba(0, 0, 255, 0.87)"
+            class="cart_icon"
+          >
+            <path
+              d="M6.451 11.239h10.638a.584.584 0 00.564-.408L20 2.964a.543.543 0 00-.1-.493.6.6 0 00-.468-.224H5.1L4.679.44A.582.582 0 004.106 0H.586A.575.575 0 000 .562a.575.575 0 00.587.562h3.049l2.118 9.13A1.688 1.688 0 004.693 11.8a1.726 1.726 0 001.76 1.686h10.636a.562.562 0 100-1.124H6.452a.562.562 0 110-1.124zm12.207-7.867l-2.011 6.743H6.923L5.359 3.372zm0 0"
+            ></path>
+            <path
+              class="cart_icon path-selector"
+              d="M5.656 15.543a2.056 2.056 0 102.056-2.056 2.058 2.058 0 00-2.056 2.056zm2.056-.685a.685.685 0 11-.685.685.686.686 0 01.685-.686zm0 0M13.171 15.543a2.056 2.056 0 102.055-2.056 2.058 2.058 0 00-2.055 2.056zm2.056-.685a.685.685 0 11-.685.685.686.686 0 01.684-.686zm0 0"
+            ></path>
+          </svg>
+          <a  href="./cart.html"><p id="cart11" style="cursor: pointer;">Cart</p></a>
+          
+        </div>
+        <div id="login">
+          <svg
+            width="14.514"
+            height="17.355"
+            viewBox="0 0 14.514 17.355"
+            style="fill: rgba(0, 0, 255, 0.87)"
+            class="user_account"
+          >
+            <path
+              d="M7.257 8.222A3.861 3.861 0 103.4 4.361a3.861 3.861 0 003.857 3.861zM9.96 10.1h-.5a5.251 5.251 0 01-4.4 0h-.5A4.055 4.055 0 00.5 14.152v1.255a1.448 1.448 0 001.448 1.448h10.618a1.448 1.448 0 001.448-1.448v-1.255A4.055 4.055 0 009.96 10.1z"
+            ></path>
+          </svg>
+          <a href="./mobile.html">
+            <p style="cursor: pointer;">Login</p>
+
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="navmenu">
+      <nav>
+        <ul>
+         <a href="./index.html">
+          <li id="home">
+            HOME
+           
+          </li>
+         </a>
+         
+          <li>
+            BABY
+            <div id="megamenu">
+                <div class="innermenu">
+                  <h2>Explore</h2>
+                  <p>New Launches</p>
+                  <p>Best Sellers</p>
+                  <p>Combos</p>
+                  <p>Gift Packs</p>
+                </div>
+                <div class="innermenu">
+                  <h2>Baby</h2>
+                  <p>Baby Shampoo</p>
+                  <p>Baby Oralcare</p>
+                  <p>Baby Oil</p>
+                  <p>Baby Skin</p>
+                  <p>Baby Bath</p>
+                </div>
+                <div class="innermenu">
+                  <a href="./allprod.html"><h2>See All</h2></a>
+                </div>
+            </div>
+          </li>
+          <li>
+            BEAUTY
+            <div id="megamenu">
+                <div class="innermenu">
+                  <h2>Explore</h2>
+                  <p>New Launches</p>
+                  <p>Best Sellers</p>
+                  <p>Combos</p>
+                  <p>Gift Packs</p>
+                </div>
+                <div class="innermenu">
+                  <h2>Beauty</h2>
+                  <p>Face</p>
+                  <p>Hair</p>
+                  <p>Body</p>
+                
+                </div>
+                <div class="innermenu">
+                  <a href="./allprod.html"><h2>See All</h2></a>
+                </div>
+            </div>
+          </li>
+          <li>
+            HAIR
+            <div id="megamenu">
+                <div class="innermenu">
+                  <h2>Explore</h2>
+                  <p>New Launches</p>
+                  <p>Best Sellers</p>
+                  <p>Combos</p>
+                  <p>Gift Packs</p>
+                </div>
+                <div class="innermenu">
+                  <h2>Hair</h2>
+                  <p>Shampoo</p>
+                  <p>Conditioner</p>
+                  <p>Hair Oil</p>
+                  <p>Hair Mask</p>
+                  <p>Hair Serum</p>
+                 
+                </div>
+                <div class="innermenu">
+                  <a href="./allprod.html"><h2>See All</h2></a>
+                </div>
+            </div>
+          </li>
+          <li>
+            FACE
+            <div id="megamenu">
+                <div class="innermenu">
+                  <h2>Explore</h2>
+                  <p>New Launcges</p>
+                  <p>Best Sellers</p>
+                  <p>Combos</p>
+                  <p>Gift Packs</p>
+                </div>
+                <div class="innermenu">
+                  <h2>Face</h2>
+                 <p>Face Mask</p>
+                 <p>Face Cream</p>
+                 <p>Face Wash</p>
+                 <p>Face Serum</p>
+                 <p>Face Scrub</p>
+               
+                </div>
+                <div class="innermenu">
+                  <a href=""><h2>See All</h2></a>
+                </div>
+            </div>
+          </li>
+          <li>
+            BODY
+            <div id="megamenu">
+                <div class="innermenu">
+                  <h2>Explore</h2>
+                  <p>New Launcges</p>
+                  <p>Best Sellers</p>
+                  <p>Combos</p>
+                  <p>Gift Packs</p>
+                </div>
+                <div class="innermenu">
+                  <h2>Body</h2>
+                  <p>Body Wash</p>
+                  <p>Body Scrub</p>
+                  <p>Body Lotion</p>
+                  <p>Hand Cream</p>
+                </div>
+                <div class="innermenu">
+                  <a href=""><h2>See All</h2></a>
+                </div>
+            </div>
+          </li>
+          <li>
+            GIFT PACKS
+          
+          </li>
+          <a href="./allprod.html">
+            <li id="allpro">
+              ALL PRODUCTS
+            
+            </li>
+          </a>
+          
+          <li>
+            BLOG
+           
+          </li>
+          <li>
+            PLANT GOODNESS
+           
+          </li>
+          <li>
+            STORE LOCATOR
+            
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>
+<script>
+  // document.getElementById("logo11").addEventListener("click",Myfuction)
+  // function Myfuction(){
+  //   window.location.href="index.html"
+  // }
+  // document.getElementById("home").addEventListener("click",Myfuction)
+  // function Myfuction(){
+  //   window.location.href="index.html"
+  // }
+  // document.getElementById("allpro").addEventListener("click",Myfuction1)
+  // function Myfuction1(){
+  //   window.location.href="allprod.html"
+  // }
+</script>

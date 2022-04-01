@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/allprod.css">
+    <style>
+     
+    </style>
+</head>
+<body>
+    <div id="header"></div>
+    <div id="sliding">
+        <img src="./indexSliding/allpro1.jpg" id="slider">
+    </div>
+    <div id="div1"><h2>Home/Shop</h2> </div>
+    <div id="option">
+        <div id="left">
+            <button id="button1">ALL</button>
+            <button id="button2">HAIR</button>
+            <button id="button3">FACE</button>
+            <button id="button4">BODY</button>
+            <button id="button5">BABY</button>
+        </div>
+        <div id="right">
+            <select id="change" onchange="dis()" value="Sort BY">
+                <option >Sort BY </option>
+                <option >Rating</option>
+                <option value="ba" >Price-High to Low</option>
+                <option value="ab">Price-Low to High</option>
+            </select>
+        </div>
+    </div>
+    <div id="index"></div>
+    <div id="imgbottom1">
+        <img src="./indexSliding/Screenshot (1814).png" alt="">
+        <img id="imgbottom2" src="./indexSliding/Screenshot (1815).png" alt="">
+    </div>
+</body>
+</html>
+<script src="./scripts/allprod.js"></script>
+
+<script type="module">
+import navbar from "./components/navbar.js";
+    let container = document.getElementById("header");
+    container.innerHTML = navbar();
+
+</script>
+<script src="./scripts/navbar.js"></script>
+
+

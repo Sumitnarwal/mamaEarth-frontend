@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <script src="https://kit.fontawesome.com/683b4b40e3.js" crossorigin="anonymous"></script>
+   
+    <link rel="stylesheet" href="./styles/cart.css">
+    <style>
+    
+    </style>
+</head>
+<body>
+    <div id="header"></div>
+    <div id="both_add_pro">
+ <div id="address">
+     <div id="add1"> <h3>Hi Sumit, Welcome to Mamaearth</h3> </div>
+     <div><h2>Delivery Address</h2></div>
+     <div id="addmain">
+         <div id="nameadd">
+             <div><h3>Sumit Narwal</h3><p> (default)</p></div>
+             <div id="homebor">HOME</div>
+             
+         </div>
+         <p>H NO 443 GALI NO 3 BASANT VIHAR ROHTAK, ROHTAK, HARYANA - 124001</p>
+           <h4>8708401117</h4>
+        </div>
+        <div >
+            <button id="btt5">DELIVER TO NEW ADDRESS</button>
+        </div>
+        <h3> Choose payment method</h3>
+        <div id="payment_div">
+            <div id="upiall">
+                <div id="b1a">
+                   <input name="sumit" type="radio" onclick="sumit()"  value="a" class="big" id="b1">
+                   <label for="b1" >UPI</label>
+                </div>
+                <div id="b2a">
+                    <input name="sumit" onclick="sumit1()"  value="b" type="radio" class="big" id="b12">
+                    <label for="b12">Credit/Debit Card</label>
+                 </div>
+                 <div id="b3a">
+                    <input name="sumit"onclick="sumit2()"  type="radio" class="big" id="b3">
+                    <label for="b3">Net Banking</label>
+                 </div>
+                 <div id="b4a">
+                    <input name="sumit" onclick="sumit3()" type="radio" class="big" id="b4">
+                    <label for="b4" class="a1">Wallets</label>
+                 </div>
+                 <div id="b5a">
+                    <input name="sumit" onclick="sumit4()" type="radio" class="big" id="b5">
+                    <label for="b5">Cash On Delivery</label>
+                 </div>
+                 
+            </div>
+           
+            <div  id="upishow">
+             type
+            </div>
+        </div>
+
+ </div>
+ <div>
+     <div id="cartno">
+         <h2 id="cartnoD"></h2>
+     </div>
+     <div>
+            <div id="prod">
+            
+        </div>
+        <!-- <div>APPLY OFFERS</div> -->
+        <div id="Pric_summ">
+            <div class="totalP">
+                <h2 class="h1" id="h1">  Price Summary </h2>
+                  <h2 class="h1" id="T_priceDis" ></h2>
+            </div>
+            <div class="totalP">
+                <h2 id="h1" >  Order Total </h2>
+                  <h2 id="T_price"></h2>
+            </div>
+            <div class="totalP">
+                <h2 id="h1">  Items Discount </h2>
+                  <h2 class="h2" id="Discount"></h2>
+            </div>
+            <div class="totalP">
+                <h2 id="h1"> Item Total</h2>
+                  <h2 id="totalP"></h2>
+            </div>
+            <div class="totalP">
+                <h2 id="h1"> Shipping </h2>
+                  <h2 class="h2" id="hk">Free</h2>
+            </div>
+            <div class="totalP">
+                <h2 id="h1"> 10% online payment discount </h2>
+                  <h2 class="h2" id="Online"></h2>
+            </div>
+            <div class="totalP">
+                <h2 id="h1"> Grand Total </h2>
+                  <h2 id="T_priceDisk"></h2>
+            </div>
+        </div>
+        </div>
+ </div>
+ 
+
+    </div>
+   
+    <div id="imgbottom1">
+        <img src="./indexSliding/Screenshot (1814).png" alt="">
+        <img id="imgbottom2" src="./indexSliding/Screenshot (1815).png" alt="">
+    </div>
+</body>
+</html>
+<script>
+  
+
+</script>
+<script type="module">
+    import navbar from "./components/navbar.js";
+        let container = document.getElementById("header");
+        container.innerHTML = navbar();
+    
+    </script>
+    <script src="./scripts/cart.js"></script>

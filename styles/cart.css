@@ -1,0 +1,236 @@
+#header{
+    width: 100%;
+
+}
+#both_add_pro{
+    display: flex;
+    width: 98%;
+    border: 1px solid rgb(190, 170, 170);
+    height: 850px;
+    margin: auto;
+}
+#address{
+    width: 80%;
+    height: 100%;
+    border: 1px solid rgb(182, 172, 172);
+    border-top: none;
+}
+#prod{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+#add1{
+font-weight: none;
+}
+#nameadd{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    border: 1px solid rgb(221, 200, 200);
+}
+#nameadd>div{
+    display: flex;
+    flex-direction: row;
+
+}
+#nameadd>div>p{
+    margin-top: 22px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+#homebor{
+    border: 1px solid rgb(209, 192, 192);
+    background-color: #ebf5e0;
+    margin-top: 20px;
+    width: 60px;
+    height: 20px;
+    margin-left: 60%;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#btt5{
+    color: green;
+    background-color:#ebf5e0 ;
+    width: 40%;
+    height: 50px;
+    cursor: pointer;
+}
+#payment_div{
+    display: flex;
+    width: 100%;
+   
+}
+#upiall{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border: 1px solid rgb(206, 192, 192);
+    height: 100%;
+    line-height: 0px;
+    border-bottom: none;
+}
+#upiall>div{
+   height: 40px;
+    font-size: 22px;
+    border-bottom: 1px solid rgb(207, 178, 178);
+}
+#upiall>div>input,label{
+    margin-top: 10px;
+}
+
+.big{
+    height: 15px ;
+    width: 15px;
+}
+
+#b1a:hover{
+    background-color: #e0ebd5;
+}
+#b5a:hover{
+    background-color: #e0ebd5;
+}
+#b4a:hover{
+    background-color: #e0ebd5;
+}
+#b3a:hover{
+    background-color: #e0ebd5;
+}
+#b2a:hover{
+    background-color: #e0ebd5;
+}
+#upishow{
+    width:70% ;
+    height: 100%;
+   
+}
+#upishow>img{
+    width: 100%;
+    height: 60%;
+}
+#imgbottom1{
+    text-align: center;
+    width: 100%;
+   
+ }
+#bbtn{
+margin-top: 20px;
+background-color: #00afef;
+padding: 5px 210px;
+color: white;
+font-size: 20px;
+}
+#div11a{
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    border: solid 1px rgb(167, 153, 153);
+}
+#div2a{
+    text-align: center;
+    font-size: 12px;
+    width: 95%;
+    margin: auto;
+    background-color: #e6ffe9;
+    padding: 5px 0px;
+    font-size: 20px;
+    border: 1px solid rgb(153, 201, 141);
+
+}
+#div11b{
+    font-size: 22px;
+    
+    text-align: left;
+    margin-left: 20px;
+}
+#img11{
+    width: 100%;
+
+}
+ #div1price{
+    padding-left: 40px;
+} 
+ #imgdivk{
+    width: 150px;
+    height: 145px;
+    border: 1px solid rgb(231, 219, 219);
+border-bottom: none;
+} 
+#imgk{
+ width: 100%;
+ height: 100%;   
+}
+ #showimg{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    margin-bottom: 10px;
+    border-right: none;
+    border: 1px solid rgb(173, 154, 154);
+} 
+.price{
+    font-weight: bold;
+    font-size: 18px;
+}
+.title{
+    font-weight: 500;
+}
+#cartnoD{
+    color: #6bc0f3;
+}
+
+.price_Rem{
+    display: flex;
+    flex-direction: row;
+}
+.price_Rem>button{
+   margin-left: 250px;
+   height: 25px;
+   width: 110px;
+   margin-top: 18px;
+}
+.price_Rem>p{
+   
+    margin-bottom: 20px;
+}
+#Pric_summ{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 450px;
+}
+.totalP{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 20px;
+    line-height: 0%;
+    height: 40px;
+}
+.totalP>h2{
+    font-weight: lighter;
+}
+#both_add_pro{
+    height: 100%;
+}
+#T_priceDis{
+    
+    margin-bottom: 0px;
+}
+#h1{
+    
+    margin-top: 50px;
+}
+#hk{
+    margin-top: 50px;
+}
+
+.h1{
+    color: #6bc0f3;
+}
+.h2{
+    color: #0c2;
+}

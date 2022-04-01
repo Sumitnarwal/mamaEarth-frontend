@@ -1,0 +1,119 @@
+#header{
+    width: 100%;
+   height: 120px;
+   
+   }
+   #sliding{
+       width: 100%;
+       height: 400px;
+  
+   }
+   #sliding>img{
+       width: 100%;
+       height: 100%;
+   } 
+   #div1{
+       width: 80%;
+       margin: auto;
+       margin-top: 20px;
+   } 
+   #div1>h2{
+       font-style: normal;
+       font-weight: lighter;
+      
+   }
+   #left>button{
+       padding: 8px 20px;
+       margin-right: 0px;
+       border: none;
+   }
+   #left{
+       width: 80%;
+       margin: auto;
+     
+   }
+   #option{
+      margin-bottom: 30px;
+   display: flex;
+   width: 80%;
+   margin: auto;
+   
+   }
+   #option>div{
+       justify-content: space-between;
+}
+   #right{ 
+       margin-left: 50px;
+   }
+   #right>select{
+       width: 250px;
+       height: 30px;
+       font-size: 20px;
+   
+   }
+   #index{
+       width: 100%;
+       display: grid;
+       margin-top: 40px;
+       grid-template-columns: repeat(4,23%);
+       grid-gap: 20px;
+       margin: auto;
+   }
+   #option{
+       margin-bottom: 20px;
+   }
+   #index>div{
+       text-align: center;
+
+       margin-left: 20px;
+   }
+   #index>div>img{
+       width: 100%;
+   }
+   #imgbottom1{
+      text-align: center;
+      width: 100%;
+      line-height: 0px;
+   }
+   #button1:focus{
+       background-color: rgb(150, 207, 207);
+       color: white;
+   }
+   #button2:focus{
+       background-color: rgb(150, 207, 207);
+       color: white;
+   }
+   #button3:focus{
+       background-color: rgb(150, 207, 207);
+       color: white;
+   }
+   #button4:focus{
+       background-color: rgb(150, 207, 207);
+       color: white;
+   }
+   #button5:focus{
+       background-color: rgb(150, 207, 207);
+       color: white;
+   }
+   #index>div{
+    text-align: center;
+    width: 100%;
+   border: 1px solid rgb(238, 221, 221);
+   
+}
+#hoverImg{
+cursor: pointer;
+}
+#button1,#button2,#button3,#button4,#button5{
+    cursor: pointer;     
+}
+
+#hoverImg ~button{
+    background-color: #0bf;
+    width: 60%;
+   height: 30px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

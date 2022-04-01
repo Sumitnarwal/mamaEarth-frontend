@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/register.css">
+</head>
+<body>
+    <div class="register">
+        <h2 class="log">Log in to get Started</h2>
+        <div class="imgk">
+            <img src="https://mamaearth.in/static/mamaearth/login.svg">
+            <p>Get access to your orders, track
+                previous order & Redeem Mama
+                Cash</p>
+        </div>
+        <input type="Number" placeholder="Phone Number">
+        <span id="spanm"><p>By Continuing, you agree to Mamaearth's</p><p id="clolour">Terms and Conditions And Privacy Policy</p></span>
+  
+        <button id="btn1">LOGIN WITH OTP</button><br>
+   <button id="btn2">CONTINUE AS GUEST</button>
+    </div>
+</body>
+</html>
+<script>
+    document.getElementById("btn1").addEventListener("click",function(){
+        alert("OTP SEND TO MOBILE NO")
+        window.location.href="index.html"
+    })
+    document.getElementById("btn2").addEventListener("click",function(){
+        window.location.href="index.html"
+    })
+</script>
